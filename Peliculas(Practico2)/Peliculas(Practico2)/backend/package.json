@@ -1,0 +1,28 @@
+{
+  "name": "catalogo-peliculas-backend",
+  "version": "1.0.0",
+  "description": "Backend para el catálogo de películas",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.7",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "multer": "^1.4.5-lts.1",
+    "pg": "^8.7.1",
+    "sequelize": "^6.6.5"
+  },
+  "devDependencies": {
+    "@babel/preset-react": "^7.24.7",
+    "nodemon": "^2.0.22",
+    "webpack": "^5.64.4",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-middleware": "^5.3.1",
+    "webpack-hot-middleware": "^2.25.0"
+  },
+  "author": "",
+  "license": "ISC"
+}
