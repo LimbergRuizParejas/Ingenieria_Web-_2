@@ -1,0 +1,98 @@
+.pokemon-detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px; /* Aumentar padding */
+    font-family: 'Roboto', sans-serif; /* Fuente moderna */
+    background-color: #ffffff; /* Fondo blanco */
+    border: 3px solid #f2b807; /* Borde amarillo típico de las cartas Pokémon */
+    border-radius: 15px; /* Bordes más redondeados */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada */
+    max-width: 600px; /* Limitar el ancho máximo */
+    margin: 20px auto; /* Centrar en la página */
+  }
+  
+  .pokemon-detail img {
+    max-width: 300px;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 10px; /* Redondear más las esquinas */
+  }
+  
+  .pokemon-detail h2 {
+    margin-top: 20px;
+    font-size: 2.5em; /* Aumentar tamaño de fuente */
+    color: #333; /* Color del texto */
+  }
+  
+  .pokemon-detail ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+  }
+  
+  .pokemon-detail ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0; /* Aumentar padding */
+    border-bottom: 1px solid #eee; /* Añadir línea de separación */
+  }
+  
+  .pokemon-detail ul li:last-child {
+    border-bottom: none; /* Eliminar línea en el último elemento */
+  }
+  
+  .pokemon-detail ul li span {
+    font-weight: bold;
+    font-size: 1.2em; /* Aumentar tamaño de fuente */
+    color: #555; /* Color del texto */
+  }
+  
+  .pokemon-detail ul li .pokemon-type {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* Aumentar espacio entre tipos */
+  }
+  
+  .pokemon-detail ul li .pokemon-type span {
+    padding: 5px 10px;
+    border-radius: 5px; /* Redondear más las esquinas */
+    font-size: 0.9em; /* Aumentar tamaño de fuente */
+    text-transform: uppercase;
+    font-weight: bold; /* Aumentar peso de la fuente */
+  }
+  
+  .pokemon-detail ul li .pokemon-type span.type-fire {
+    background-color: #ff6600;
+    color: #fff;
+  }
+  
+  .pokemon-detail ul li .pokemon-type span.type-water {
+    background-color: #6699ff;
+    color: #fff;
+  }
+  
+  /* Añadir más estilos de tipo según sea necesario */
+  
+  .evolution-line {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .evolution-step {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 20px;
+  }
+  
+  .evolution-step img {
+    max-width: 100px;
+    height: auto;
+    border-radius: 10px;
+  }
+  
