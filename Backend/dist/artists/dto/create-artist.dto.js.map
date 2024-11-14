@@ -1,0 +1,1 @@
+{"version":3,"file":"create-artist.dto.js","sourceRoot":"","sources":["../../../src/artists/dto/create-artist.dto.ts"],"names":[],"mappings":";;;;;;;;;;;;AAAA,qDAAuD;AAEvD,MAAa,eAAe;CAY3B;AAXC;IAAC,IAAA,0BAAQ,GAAE;IACV,IAAA,4BAAU,GAAE;;6CACC;AAEd;IAAC,IAAA,0BAAQ,GAAE;IACV,IAAA,4BAAU,GAAE;;8CACE;AAEf;IAAC,IAAA,0BAAQ,GAAE;IACV,IAAA,4BAAU,GAAE;;gDACI;AAXnB,0CAYC"}
